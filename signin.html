@@ -4,32 +4,27 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- <link href="./Degular/Degular/Desktop/Degular-Bold.otf" />
-    <link href="./Degular/Degular Text/Desktop/DegularText-Medium.otf" />
-    <link href="./Degular/Degular Text/Desktop/DegularText-Italic.otf" />
-    <link
-      href="./Degular/Degular Display/Desktop/DegularDisplay-Semibold.otf"
-    /> -->
     <title>Flitaa Sign-In</title>
-    <!-- <style>
-      @import url("Degular/Degular/Desktop/Degular-Medium.otf");
-    </style> -->
+
     <style type="text/css">
       @font-face {
+        /* very bold */
         font-family: 'Degular';
-        src: url('./Degular/Degular/Desktop/Degular-Semibold.otf')
+        src: url('https://anima-uploads.s3.amazonaws.com/5e7abf65eb876cc1084e5bac/.44516.otf')
           format('opentype');
       }
 
       @font-face {
+        /* regular */
+        font-family: 'Degular Text Medium';
+        src: url('https://anima-uploads.s3.amazonaws.com/5e7abf65eb876cc1084e5bac/.44540.otf')
+          format('opentype');
+      }
+
+      @font-face {
+        /* bold */
         font-family: 'Degular Text';
-        src: url('./Degular/Degular Text/Desktop/DegularText-Medium.otf')
-          format('opentype');
-      }
-
-      @font-face {
-        font-family: 'Degular-Display-Semibold';
-        src: url('./Degular/Degular Display/Desktop/DegularDisplay-Semibold.otf')
+        src: url('https://anima-uploads.s3.amazonaws.com/5e7abf65eb876cc1084e5bac/.44544.otf')
           format('opentype');
       }
       * {
@@ -39,7 +34,7 @@
       }
     </style>
   </head>
-  <body style="padding-bottom: 60px; color: black; background-color: #f5f8fa">
+  <body style="padding-bottom: 60px; color: #203751; background-color: #f5f8fa">
     <center style="width: 100%; table-layout: fixed">
       <table
         border="0"
@@ -49,11 +44,11 @@
           background-color: #ffffff;
           max-width: 100%;
           border-spacing: 0;
-          font-family: Degular;
+          font-family: Degular Text Medium;
           border-top-right-radius: 6px;
           border-top-left-radius: 6px;
           border-bottom-right-radius: 6px;
-          color: black;
+          color: #203751;
           margin-top: 10px;
         "
       >
@@ -67,12 +62,7 @@
             "
           >
             <img
-              src="https://i.ibb.co/nCY1Dp4/LOGO.png"
-              alt="flitaa banner"
-              style="max-width: 100%; height: 27px; padding-right: 5%"
-            />
-            <img
-              src="https://i.ibb.co/MRRCxD3/bgImg.png"
+              src="https://i.ibb.co/mCfy9F4/Header.png"
               alt="flitaa banner"
               style="max-width: 100%; height: 80px; padding-top: 0px"
             />
@@ -85,11 +75,12 @@
           >
             <h4
               style="
-                font-size: 24px;
+                font-size: 30px;
                 margin-bottom: 0px;
                 margin-top: 0px;
                 font-weight: bold;
-                font-family: Degular Text;
+                font-family: Degular;
+                color: #203751;
               "
             >
               Your sign-in code
@@ -108,13 +99,14 @@
               style="
                 text-align: left;
                 max-width: 86%;
-                color: black;
+                color: #203751;
                 line-height: 24px;
-                font-size: 15px;
                 margin-top: 15px;
-                font-family: Degular-Display-Semibold;
+                margin-bottom: 0px;
+                font-family:Degular Text Medium;
                 font-style: normal;
                 font-weight: 500;
+                font-size: 16px;
               "
             >
               Please copy and paste the 6-digit code below to authorize your
@@ -136,10 +128,11 @@
                     color: #2fa67c !important;
                     background: #f5f8fa;
                     box-shadow: inset -1px 0px 0px #edeff1;
-                    padding: 10px 24px;
-                    font-size: 27px;
+                    padding: 16px 24px;
+                    font-size: 36px;
                     border-radius: 8px;
-                    font-family: degular;
+                    font-weight: 700;
+                    font-family: Degular Text;
                     margin-top: 0px;
                     margin-bottom: 0px;
                   "
@@ -152,14 +145,33 @@
         </tr>
         <!--  -->
         <tr>
-          <td style="padding-left: 5.3%; padding-top: 14px;font-family:Degular Text">
-            <p>Please note: the code will be valid for the next 30 minutes.</p>
+          <td style="padding-left: 5.3%; padding-top: 14px;padding-bottom: 14px;">
+            <p
+              style="
+                margin-top: 0px;
+                margin-bottom: 0px;
+                font-size: 16px;
+                font-family: Degular Text Medium;
+                color: #203751;
+              "
+            >
+              Please note: the code will be valid for the next 30 minutes.
+            </p>
           </td>
         </tr>
         <!--  -->
         <tr>
           <td style="padding-left: 5.3%; margin-top: 0px; margin-bottom: 0px">
-            <p style="max-width: 480px; line-height: 24px;font-family: Degular Text;">
+            <p
+              style="
+                max-width: 480px;
+                line-height: 24px;
+                font-family: Degular Text Medium;
+                font-size: 16px;
+                color: #203751;
+                padding-bottom: 14px;
+              "
+            >
               If you didn’t try to sign-in or create an account on Flitaa, you
               can safely ignore this email.
             </p>
@@ -192,8 +204,10 @@
                     style="
                       max-width: 600px;
                       margin: 0 auto;
-                      font-family: degular;
+                      font-family: Degular Text Medium;
                       line-height: 20px;
+                      font-size: 14px;
+                      color: #203751;
                     "
                   >
                     Messages from Flitaa, including our Customer Experience
@@ -205,9 +219,10 @@
                   <p
                     style="
                       text-align: center;
-                      font-family: Degular Text;
+                      font-family: Degular Text Medium;
                       margin-top: 0px;
                       margin-bottom: 0px;
+                      color: #203751;
                     "
                   >
                     [Address and phone number goes here]
@@ -218,6 +233,8 @@
                       text-align: center;
                       margin-top: 0px;
                       margin-bottom: 0px;
+                      font-family: 'Degular Text Medium';
+                      color: #203751;
                     "
                   >
                     @2023 Flitaa.com reserves all rights.
@@ -231,10 +248,12 @@
                 <h4
                   style="
                     text-align: center;
-                    font-family: degular;
+                    font-family: Degular;
                     margin-top: 0px;
                     margin-bottom: 0px;
-                    padding-top: 30px;
+                    padding-top: 16px;
+                    font-size: 20px;
+                    color: #203751;
                   "
                 >
                   Download our app
@@ -248,12 +267,14 @@
                     max-width: 701px;
                     height: 10px !important;
                     border-spacing: 0;
-                    padding-top: 14px;
+                    padding-top: 16px;
+                    padding-bottom: 32px;
                     align-items: center;
                     margin-top: 0px;
                     margin-bottom: 0px;
                     margin: 0 auto;
-                    font-family: degular;
+                    color: #203751;
+                    font-family: Degular-Regular;
                   "
                 >
                   <tr>
@@ -275,10 +296,10 @@
                         "
                       >
                         <img
-                          src="https://i.ibb.co/DbnTfQN/appStore.png"
+                          src="https://i.ibb.co/bNm5gJX/appStore.png"
                           alt="Apple store"
-                          width="141"
-                          height="80"
+                          width="105"
+                          height="40"
                         />
                       </a>
                       <a
@@ -291,10 +312,10 @@
                         "
                       >
                         <img
-                          src="https://i.ibb.co/gSCz1Xv/google-Play.png"
+                          src="https://i.ibb.co/QM9s7d9/google-Play.png"
                           alt="Playstore"
-                          width="141"
-                          height="80"
+                          width="105"
+                          height="40"
                           data-is360="0"
                         />
                       </a>
