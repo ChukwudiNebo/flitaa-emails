@@ -1,69 +1,33 @@
 <!DOCTYPE html>
-<html
-  lang="en"
-  xmlns="http://www.w3.org/1999/xhtml"
-  xmlns:o="urn:schemas-microsoft-com:office:office"
->
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="x-apple-disable-message-reformatting" />
-    <!-- normal -->
-    <link
-      href="https://db.onlinewebfonts.com/c/63d76549dab079596f161248e8bf3891?family=Runda+W00+Normal"
-      rel="stylesheet"
-    />
-    <!-- black -->
-    <link
-      href="https://db.onlinewebfonts.com/c/4839d71ced6b056c7cf935e977cc1981?family=Runda+W00+Black"
-      rel="stylesheet"
-    />
     <title>Flitaa Sign-In</title>
-    <!--[if mso]>
-      <noscript>
-        <xml>
-          <o:OfficeDocumentSettings>
-            <o:PixelsPerInch>96</o:PixelsPerInch>
-          </o:OfficeDocumentSettings>
-        </xml>
-      </noscript>
-    <![endif]-->
-    <style>
-      @import url(https://db.onlinewebfonts.com/c/63d76549dab079596f161248e8bf3891?family=Runda+W00+Normal);
-      @import url(https://db.onlinewebfonts.com/c/4839d71ced6b056c7cf935e977cc1981?family=Runda+W00+Black);
-    </style>
+    <link
+      rel="stylesheet"
+      href="https://res.cloudinary.com/deyphkmor/raw/upload/v1/flitaa_files/email_files/fonts/q9ahejcefuvgvwm79o83.otf"
+    />
+    <link
+      rel="stylesheet"
+      href="https://res.cloudinary.com/deyphkmor/raw/upload/v1/flitaa_files/email_files/fonts/tr4iuvb6hywdqtuxwu8e.otf"
+    />
+    <link
+      rel="stylesheet"
+      href="https://res.cloudinary.com/deyphkmor/raw/upload/v1/flitaa_files/email_files/fonts/fkl9xvwz5i3bybagfbje.otf"
+    />
     <style type="text/css">
+      @import url('https://res.cloudinary.com/deyphkmor/raw/upload/v1/flitaa_files/email_files/fonts/q9ahejcefuvgvwm79o83.otf');
+      @import url('https://res.cloudinary.com/deyphkmor/raw/upload/v1/flitaa_files/email_files/fonts/tr4iuvb6hywdqtuxwu8e.otf');
+      @import url('https://res.cloudinary.com/deyphkmor/raw/upload/v1/flitaa_files/email_files/fonts/fkl9xvwz5i3bybagfbje.otf');
+
       @font-face {
-        font-family: 'Runda W00 Normal';
-        src: url('https://db.onlinewebfonts.com/t/63d76549dab079596f161248e8bf3891.eot');
-        src: url('https://db.onlinewebfonts.com/t/63d76549dab079596f161248e8bf3891.eot?#iefix')
-            format('embedded-opentype'),
-          url('https://db.onlinewebfonts.com/t/63d76549dab079596f161248e8bf3891.woff2')
-            format('woff2'),
-          url('https://db.onlinewebfonts.com/t/63d76549dab079596f161248e8bf3891.woff')
-            format('woff'),
-          url('https://db.onlinewebfonts.com/t/63d76549dab079596f161248e8bf3891.ttf')
-            format('truetype'),
-          url('https://db.onlinewebfonts.com/t/63d76549dab079596f161248e8bf3891.svg#Runda W00 Normal')
-            format('svg');
+        /* regular this is not working on gmail*/
+        font-family: 'Degular';
+        src: url('https://res.cloudinary.com/deyphkmor/raw/upload/v1/flitaa_files/email_files/fonts/tr4iuvb6hywdqtuxwu8e.otf')
+          format('opentype');
       }
-      /*  */
-      @font-face {
-        font-family: 'Runda W00 Black';
-        src: url('https://db.onlinewebfonts.com/t/4839d71ced6b056c7cf935e977cc1981.eot');
-        src: url('https://db.onlinewebfonts.com/t/4839d71ced6b056c7cf935e977cc1981.eot?#iefix')
-            format('embedded-opentype'),
-          url('https://db.onlinewebfonts.com/t/4839d71ced6b056c7cf935e977cc1981.woff2')
-            format('woff2'),
-          url('https://db.onlinewebfonts.com/t/4839d71ced6b056c7cf935e977cc1981.woff')
-            format('woff'),
-          url('https://db.onlinewebfonts.com/t/4839d71ced6b056c7cf935e977cc1981.ttf')
-            format('truetype'),
-          url('https://db.onlinewebfonts.com/t/4839d71ced6b056c7cf935e977cc1981.svg#Runda W00 Black')
-            format('svg');
-      }
-      /*  */
       * {
         padding: 0;
         margin: 0;
@@ -81,6 +45,7 @@
           background-color: #ffffff;
           max-width: 100%;
           border-spacing: 0;
+          font-family: Degular Text Medium;
           border-top-right-radius: 6px;
           border-top-left-radius: 6px;
           border-bottom-right-radius: 6px;
@@ -98,9 +63,9 @@
             "
           >
             <img
-              src="https://i.ibb.co/mCfy9F4/Header.png"
+              src="https://res.cloudinary.com/dg83jettr/image/upload/v1696940783/Header_s3hmwt.svg"
               alt="flitaa banner"
-              style="max-width: 100%; height: 60px; padding-top: 0px"
+              style="width: 100%; padding-top: 0px"
             />
           </td>
         </tr>
@@ -114,9 +79,9 @@
                 font-size: 30px;
                 margin-bottom: 0px;
                 margin-top: 0px;
-                font-weight: 900;
+                font-weight: bolder;
+                font-family: Degular;
                 color: #203751;
-                font-family: 'Runda W00 Black';
               "
             >
               Your sign-in code
@@ -139,10 +104,10 @@
                 line-height: 24px;
                 margin-top: 15px;
                 margin-bottom: 0px;
+                font-family: Degular;
                 font-style: normal;
                 font-weight: 500;
                 font-size: 16px;
-                font-family: 'Runda W00 Normal';
               "
             >
               Please copy and paste the 6-digit code below to authorize your
@@ -167,11 +132,10 @@
                     padding: 16px 24px;
                     font-size: 36px;
                     border-radius: 8px;
-                    font-weight: 700;
-                    font-family: Degular Text;
+                    font-weight: 900;
+                    font-family: Degular;
                     margin-top: 0px;
                     margin-bottom: 0px;
-                    font-family: 'Runda W00 Black';
                   "
                 >
                   12346
@@ -190,8 +154,9 @@
                 margin-top: 0px;
                 margin-bottom: 0px;
                 font-size: 16px;
+                font-family: Degular;
                 color: #203751;
-                font-family: 'Runda W00 Normal';
+                font-weight: 500;
               "
             >
               Please note: the code will be valid for the next 30 minutes.
@@ -205,10 +170,13 @@
               style="
                 max-width: 480px;
                 line-height: 24px;
-                font-size: 16px;
-                color: #203751;
                 padding-bottom: 14px;
-                font-family: 'Runda W00 Normal';
+                margin-top: 0px;
+                margin-bottom: 0px;
+                font-size: 16px;
+                font-family: Degular;
+                color: #203751;
+                font-weight: 500;
               "
             >
               If you didn’t try to sign-in or create an account on Flitaa, you
@@ -241,12 +209,12 @@
                 <span style="text-align: center">
                   <p
                     style="
-                      max-width: 600px;
+                      max-width: 400px;
                       margin: 0 auto;
+                      font-family: Degular;
                       line-height: 20px;
                       font-size: 12px;
                       color: #203751;
-                      font-family: 'Runda W00 Normal';
                     "
                   >
                     Messages from Flitaa, including our Customer Experience
@@ -257,12 +225,12 @@
                   <p
                     style="
                       text-align: center;
+                      font-family: Degular;
+                      padding-top: 10px;
                       margin-top: 0px;
                       margin-bottom: 0px;
                       color: #203751;
                       font-size: 12px;
-                      font-family: 'Runda W00 Normal';
-                      padding-top: 10px;
                     "
                   >
                     [Address and phone number goes here]
@@ -272,9 +240,9 @@
                       text-align: center;
                       margin-top: 0px;
                       margin-bottom: 0px;
+                      font-family: 'Degular';
                       color: #203751;
                       font-size: 12px;
-                      font-family: 'Runda W00 Normal';
                       padding-top: 10px;
                     "
                   >
@@ -289,12 +257,13 @@
                 <h4
                   style="
                     text-align: center;
+                    font-family: Degular;
                     margin-top: 0px;
+                    font-weight: bold;
                     margin-bottom: 0px;
-                    padding-top: 16px;
+                    padding-top: 25px;
                     font-size: 20px;
                     color: #203751;
-                    font-family: 'Runda W00 Black';
                   "
                 >
                   Download our app
@@ -308,14 +277,14 @@
                     max-width: 701px;
                     height: 10px !important;
                     border-spacing: 0;
-                    padding-top: 16px;
-                    padding-bottom: 32px;
+                    padding-top: 0px;
+                    padding-bottom: 0px;
                     align-items: center;
                     margin-top: 0px;
                     margin-bottom: 0px;
                     margin: 0 auto;
                     color: #203751;
-                    font-family: Degular-Regular;
+                    font-family: Degular;
                   "
                 >
                   <tr>
@@ -337,10 +306,10 @@
                         "
                       >
                         <img
-                          src="https://i.ibb.co/bNm5gJX/appStore.png"
+                          src="https://res.cloudinary.com/dg83jettr/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1696941267/appStore_mkytl0.svg"
                           alt="Apple store"
-                          width="105"
-                          height="40"
+                          width="140"
+                          height="90"
                         />
                       </a>
                       <a
@@ -350,13 +319,14 @@
                           height: 80px;
                           margin-bottom: 0px;
                           padding-bottom: 0px;
+                          padding-left: 0px;
                         "
                       >
                         <img
-                          src="https://i.ibb.co/QM9s7d9/google-Play.png"
+                          src="https://res.cloudinary.com/dg83jettr/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1696941267/googlePlay_pcvb9t.svg"
                           alt="Playstore"
-                          width="105"
-                          height="40"
+                          width="140"
+                          height="90"
                           data-is360="0"
                         />
                       </a>
@@ -369,14 +339,14 @@
                     margin-top: 0px;
                     margin-bottom: 0px;
                     padding-top: 0px;
-                    padding-bottom: 0px;
+                    padding-bottom: 10px;
                   "
                 >
                   <tr>
                     <td style="margin-top: -60px">
                       <a href="#" style="text-decoration: none">
                         <img
-                          src="https://i.ibb.co/fXm4zbc/Facebook.png"
+                          src="https://res.cloudinary.com/dg83jettr/image/upload/v1696940997/facebook_zwttpr.svg"
                           alt="Facebook"
                           width="40"
                           height="40"
@@ -388,7 +358,7 @@
                         style="text-decoration: none; padding-left: 24px"
                       >
                         <img
-                          src="https://i.ibb.co/R690Vsp/Twitter.png"
+                          src="https://res.cloudinary.com/dg83jettr/image/upload/v1696940997/Twitter_o0e2z0.svg"
                           alt="Twitter"
                           width="42"
                           height="40"
@@ -400,7 +370,7 @@
                         style="text-decoration: none; padding-left: 24px"
                       >
                         <img
-                          src="https://i.ibb.co/F3p1BQ4/LinkedIn.png"
+                          src="https://res.cloudinary.com/dg83jettr/image/upload/v1696940998/LinkedIn_cl1iki.svg"
                           alt="LinkedIn"
                           width="40"
                           height="40"
@@ -412,7 +382,7 @@
                         style="text-decoration: none; padding-left: 24px"
                       >
                         <img
-                          src="https://i.ibb.co/8X4nX2Z/Instagram.png"
+                          src="https://res.cloudinary.com/dg83jettr/image/upload/v1696940998/Instagram_vkxfgc.svg"
                           alt="Instagram"
                           width="40"
                           height="40"
